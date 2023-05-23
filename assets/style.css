@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: 'Oswald';
+}
+
+/*  PAINEL E HOME  */
+
+main {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.painel {
+    flex-direction: column;
+    height: 100vh;
+    background: #8E44AD;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.painel2 {
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+
+#perfil {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 4px solid gray;
+
+}
+
+.botao {
+    display: block;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    position: relative;
+    text-align: center;
+    min-width: 90%;
+    height: 40px;
+    align-content: center;
+    font-family: 'Bungee', cursive;
+    font-size: 1.5em;
+    color: #8E44AD;
+
+
+}
+
+#btn-selecionado {
+    background-color: #F5A623;
+    color: #ffffff;
+    opacity: 0.9;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.conteudo {
+    margin-left: 30px;
+
+}
+
+#nome-color {
+    color: #F5A623;
+    font-weight: 1000;
+
+}
+
+#nome {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #8E44AD;
+    letter-spacing: 3px;
+    margin-bottom: 0px;
+}
+
+.font-estilo {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+#description {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    text-align: left;
+}
+
+.p-description {
+    width: 400px;
+    display: flex;
+}
+
+.cidade {
+    color: #8E44AD;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+
+
+}
+
+.sobreConteudo {
+    text-align: left;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+
+}
+
+.sobreImage {
+    margin-top: 50%;
+}
+
+.imagemdosobre {
+    width: 90%;
+    margin-left: 10%;
+    margin-right: 0;
+}
+
+.icon {
+    width: 45px;
+    margin-right: 10px;
+}
+
+
+/* ---------------------  CONHECIMENTOS --------------------------- */
+
+#ordenada-letras {
+    list-style: upper-alpha;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#ordenada-letras {
+    width: 40vw;
+}
+
+
+
+/* --------------------------- OBJETIVOS ----------------------------- */
+
+.ul-objetivos {
+    list-style-type: square;
+}
+
+#objetivos {
+    font-family: 'Oswald';
+    font-size: 22px;
+    display: flexbox;
+    justify-content: space-between;
+
+
+}
+
+#objetivos .conteudo {
+    text-align: left;
+
+}
