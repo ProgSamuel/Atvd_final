@@ -28,7 +28,6 @@ main {
 
 .painel2 {
     display: flex;
-
     align-items: center;
     flex-direction: column;
     gap: 25px;
@@ -76,6 +75,8 @@ a {
 
 .conteudo {
     margin-left: 30px;
+    align-items: initial;
+    justify-content: center;
 
 }
 
@@ -130,6 +131,10 @@ a {
 
 }
 
+
+/* ------------------------------ IMAGENS E ICONES ----------------------------- */
+
+
 .sobreImage {
     margin-top: 50%;
 }
@@ -148,13 +153,12 @@ a {
 
 /* ---------------------  CONHECIMENTOS --------------------------- */
 
-#ordenada-letras {
+ol{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
     list-style: upper-alpha;
     font-weight: bold;
     font-size: 25px;
-}
-
-#ordenada-letras {
     width: 40vw;
 }
 
@@ -162,20 +166,22 @@ a {
 
 /* --------------------------- OBJETIVOS ----------------------------- */
 
-.ul-objetivos {
+
+
+.sub-titulo {
+    font-size: 40px;
+    font-weight: inherit;
+    font-family: 'Oswald', sans-serif;
+    border-bottom: #F5A623 4px solid;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+    padding-bottom: 2vh;
+}
+
+ul {
+    font-size: 20px;
+    font-weight: inherit;
+    font-family: 'Oswald', sans-serif;
     list-style-type: square;
-}
-
-#objetivos {
-    font-family: 'Oswald';
-    font-size: 22px;
-    display: flexbox;
-    justify-content: space-between;
-
-
-}
-
-#objetivos .conteudo {
-    text-align: left;
-
 }
