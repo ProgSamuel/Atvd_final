@@ -2,15 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
 body {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    min-height: 100vh;
+    height: 100vh;
     font-family: 'Oswald';
 }
 
 /*  PAINEL E HOME  */
 
 main {
+    height: 100vh;
+    display: grid; 
+    grid-template-columns: 1fr 5fr;
     justify-content: center;
     align-items: center;
 
@@ -74,6 +78,8 @@ a {
 
 
 .conteudo {
+    display: grid; 
+    grid-template-columns: 60% 40%;
     margin-left: 30px;
     align-items: initial;
     justify-content: center;
@@ -186,3 +192,35 @@ ul {
     font-family: 'Oswald', sans-serif;
     list-style-type: square;
 }
+
+/* ----------------- RESPONSIVIDADE  - IPAD PRO ----------------------- */
+
+/* @media (max-width: 1024px) {
+main{
+    display: flex;
+}
+
+.painel{
+    width: 60%;
+    height: 100%;
+}
+
+.conteudo{
+    display: block;
+    justify-content: center;    
+}
+
+.sobreImage{
+    height: 40vh;
+}
+
+.imagemdosobre{
+    width: 60vw;
+}
+}
+
+@media (max-width: 1000px)  {
+    .sobreImage{
+        visibility: hidden;
+    }
+} */
