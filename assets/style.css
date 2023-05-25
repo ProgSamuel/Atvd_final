@@ -27,6 +27,7 @@ main {
     justify-content: center;
     align-items: center;
     display: flex;
+    grid-template-columns: 80vw;
 
 }
 
@@ -200,18 +201,22 @@ ul {
 @media (max-width: 1024px) {
 main{
     display: flex;
+    justify-content: initial;
 }
 
 .painel{
-    width: 55vw;
+    width: 40%;
     height: 140vh;
-    margin-top: 10px;
 }
 
 .conteudo{
+    display: grid; 
+    grid-template-columns: 55vw;
+    grid-template-rows: 40vh 30vh;
     display: block;
     justify-content: center;  
-    margin-right: 2vw;  
+    margin-right: 5vw;  
+    margin-left: 5vh;
 }
 
 #description{
@@ -219,11 +224,48 @@ main{
 }
 
 .sobreImage{
-    height: 40vh;
-    top: 130vh;
+    height: 30vh;
+    top: 3vh;
+    margin-top: 10vh;
 }
 
-.imagemdosobre{
-    width: 60vw;
+.imagemdosobre {
+    width: 40vw;
+    float: right;
 }
+
+
 }
+
+@media (max-width: 1000px) {
+.conteudo{
+    margin-top: 20vh;
+}
+
+.painel{
+    height: 150vh;
+    width: 40%;
+}
+
+    .sobreImage {
+        height: 20vh;
+        top: 1vh;
+        margin-top: 10vh;
+    }
+    
+    .imagemdosobre {
+        margin-left: 3vw;
+        position: relative;
+        right: 5vw;
+        bottom: 2vh;
+        width: 50vw;
+    }
+
+    .sub-titulo {
+        font-size: 36px;
+        border-bottom: #F5A623 3px solid;
+        margin-bottom: 2vh;
+        padding-bottom: 1vh;
+    }
+}
+
