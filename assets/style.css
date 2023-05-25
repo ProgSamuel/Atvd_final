@@ -142,13 +142,15 @@ a {
 
 
 .sobreImage {
-    margin-top: 50%;
+    margin-top: 40vh;
 }
 
 .imagemdosobre {
-    width: 90%;
-    margin-left: 10%;
-    margin-right: 0;
+    margin-left: 3vw;
+    position: relative;
+    right: 5vw;
+    bottom: 2vh;
+    width: 25vw;
 }
 
 .icon {
@@ -195,32 +197,33 @@ ul {
 
 /* ----------------- RESPONSIVIDADE  - IPAD PRO ----------------------- */
 
-/* @media (max-width: 1024px) {
+@media (max-width: 1024px) {
 main{
     display: flex;
 }
 
 .painel{
-    width: 60%;
-    height: 100%;
+    width: 55vw;
+    height: 140vh;
+    margin-top: 10px;
 }
 
 .conteudo{
     display: block;
-    justify-content: center;    
+    justify-content: center;  
+    margin-right: 2vw;  
+}
+
+#description{
+    text-align: justify;
 }
 
 .sobreImage{
     height: 40vh;
+    top: 130vh;
 }
 
 .imagemdosobre{
     width: 60vw;
 }
 }
-
-@media (max-width: 1000px)  {
-    .sobreImage{
-        visibility: hidden;
-    }
-} */
